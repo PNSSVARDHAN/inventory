@@ -113,5 +113,5 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 
 STATICFILES_DIRS = [
-    BASE_DIR / "backend/static/backend", # Adjust according to your project structure
+    BASE_DIR / "backend/static/css", # Adjust according to your project structure
 ]
