@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{% static 'backend/style.css' %}" rel="stylesheet">
+    <link href="{% static 'backend/product_list.css' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -66,7 +67,6 @@
                             <a href="{% url 'equipment_installation_create' %}" class="dropdown-item text-primary">New Installation</a>
                         </div>
                     </div>
-                    <a href="" class="nav-item nav-link text-primary">Contact</a>
                 </div>
                 <a href="{% url 'product_create' %}" class="btn btn-primary py-2 px-4 ms-3" style="color: black;">New Product</a>
             </div>
@@ -145,7 +145,12 @@
     <!-- Template Javascript -->
     <script src="{% static 'backend/js/main.js' %}"></script>
         <!-- Footer Start -->
+        <footer>
+            &copy; 2025 Developed by Kriovant | All Rights Reserved
+        </footer>
         <!-- Footer End -->
 </body>
+
+
 
 </html>

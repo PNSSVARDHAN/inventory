@@ -8,6 +8,9 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
+
+
+ cmd for the hosting in --------- ngrok http http://localhost:8080
 """
 
 from pathlib import Path
@@ -25,7 +28,7 @@ SECRET_KEY = ')l69)4z6##lxl3rv6i_c1nox(4t_5g__jf3o8(65ph1f6^u31h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8825-2401-4900-6596-5478-a497-650c-ca3b-1fae.ngrok-free.app']
 
 
 # Application definition

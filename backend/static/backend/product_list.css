@@ -13,6 +13,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 th, td {
@@ -22,7 +23,7 @@ th, td {
 
 th {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 tr:nth-child(even) {
@@ -50,4 +51,13 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    width: 100%;
 }
