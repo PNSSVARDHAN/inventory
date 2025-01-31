@@ -124,5 +124,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Adjust according to your project structure
+    BASE_DIR / "backend/static", # Adjust according to your project structure
 ]
